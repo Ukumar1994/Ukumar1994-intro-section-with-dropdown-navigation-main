@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+nav .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dropdown-item img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.firstImage,
+.secondImage {
+    padding: 0;
+}
+
+.firstImage img,
+.secondImage img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.learnmore {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.learnmore:hover {
+    background-color: #0056b3;
+}
+
+.clients img {
+    margin: 10px;
+}
